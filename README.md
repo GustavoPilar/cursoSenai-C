@@ -6,7 +6,7 @@
 
 ## Tópicos resolvidos
 <ul>
-  <li>Estruturas sequencias</li>
+  <li>Estruturas sequenciais</li>
   <li>Estruturas sequenciais</li>
   <li>Estruturas repetitivas</li>
 </ul>
