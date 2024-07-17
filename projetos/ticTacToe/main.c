@@ -152,12 +152,12 @@ char checkWinner() {
 
 char printWinner(char winner) {
     if(checkWinner() == player) {
-        printf("YOU WIN! :D");
+        printf("\nYOU WIN! :D\n");
     }
     else if(checkWinner() == pc) {
-        printf("YOU LOSE! XC");
+        printf("\nYOU LOSE! XC\n");
     }
     else {
-        printf("TIE. ´-´");
+        printf("\nTIE. .-.\n");
     }
 }
