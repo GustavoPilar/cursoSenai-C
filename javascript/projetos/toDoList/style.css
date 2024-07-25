@@ -1,42 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
 body {
-    background-image: url("https://images.unsplash.com/photo-1598237601465-af66b7475e92?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-color: black;
-    background-position: bottom center;
-    background-size: cover;
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Roboto",Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1598237601465-af66b7475e92?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
     margin: 0;
     color: white;
 }
-
+ 
+ 
 .container {
-    background-color: black;
+    background: black;
     padding: 20px;
-    border-radius: 15px;
-    border: 1px white solid;
-    box-shadow: 0px 0px 10px white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px white;
     width: 300px;
 }
-
+ 
+ 
 h1 {
     text-align: center;
+    color: transparent;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
 }
-
+ 
+ 
 .input-container {
     display: flex;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
-
+ 
+ 
 input {
     flex: 1;
     padding: 10px;
@@ -44,54 +45,61 @@ input {
     border: 1px solid white;
     color: white;
     border-radius: 4px;
-    text-transform: uppercase;
 }
-
+ 
+ 
 button {
     padding: 10px;
     border: none;
-    background-color: blue;
+    background: blue;
     color: white;
     cursor: pointer;
-    margin-left: 10px;
     border-radius: 4px;
+    margin-left: 10px;
 }
-
+ 
+ 
 button:hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0px 0px 10px white;
-    transition: background-color .5s;
+    background: black;
+    box-shadow: 0 0 10px white;
+    transition: background 1s;
 }
-
+ 
+ 
 ul {
     list-style: none;
     padding: 0;
 }
-
+ 
+ 
 li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    width: 100%;
     border-bottom: 1px solid #ccc;
+    cursor: pointer;
 }
-
+ 
+ 
 li.completed {
     text-decoration: line-through;
     color: #777;
 }
-
+ 
+ 
 .remove-btn {
     background: #dc3545;
     border: none;
-    padding: spx 10px;
+    padding: 5px 10px;
     color: white;
     cursor: pointer;
     border-radius: 4px;
 }
-
+ 
+ 
 .remove-btn:hover {
-    background: #dc4956;
+    background: #c82333;
 }
+
+
